@@ -1,0 +1,20 @@
+{
+  "name": "stelle-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that plays stelle-fm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sebastian Strempfer",
+  "license": "ISC",
+  "dependencies": {
+    "audio-through": "^4.0.1",
+    "discord.js": "^11.3.2",
+    "http": "0.0.0",
+    "node-internet-radio": "^0.1.5",
+    "opusscript": "0.0.6"
+  }
+}
